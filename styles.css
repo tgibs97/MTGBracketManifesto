@@ -251,7 +251,7 @@ sup a:hover {
   margin-bottom: 10px;
 }
 
-.footer li a {
+.footer li a, .callout a{
   color: var(--leaf);
 }
 
@@ -309,4 +309,12 @@ sup a:hover {
     background-color: rgba(193, 86, 47, 0.2);
     box-shadow: 0 0 0 3px rgba(193, 86, 47, 0.28);
   }
+}
+
+.header-image{
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
 }
